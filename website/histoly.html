@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ศิลปะการแสดงละครไทย</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #fdfaf6;
+        color: #333;
+        line-height: 1.6;
+        font-family: 'Sarabun', sans-serif;
+        background-image: url(pic/conn.avif);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .up-logo {
+        background: linear-gradient(135deg, #4a0e17, #690918);
+        padding: 15px;
+        display: flex;
+        gap: 25px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .tran-logo {
+        border-radius: 60%; 
+        object-fit: cover;
+        width: 75px;
+        height: 75px;
+        background-color: #4e2727;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .site-title h1 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #f4e8c1;
+    }
+
+    .site-title p {
+        font-size: 0.8rem;
+        color: #d4af37;
+    }
+
+    .navbar-container {
+        background-color: #2b2b2b;
+        box-shadow: 0 2px 4px black;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: auto;
+    }
+
+    .navbar li {
+        margin: 3px;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: #e0e0e0;
+        font-weight: 400;
+        padding: 10px 18px;
+        display: block;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+        font-size: 0.95rem;
+    }
+
+    .navbar a:hover {
+        background-color: #d4af37;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(212, 175, 55, 0.3);
+    }
+
+
+    
+
+    .hero-card {
+        border-radius: 12px;
+        padding: 30px;
+        display: flex;
+        width: 90%;
+        margin-left: 90px;
+    }
+
+    .hero-card img {
+        object-fit: cover;
+        width: 30%;
+        height: 300px;
+        border-radius: 10px;
+        margin-right: 50px;
+        box-shadow: 0 2px 8px black;
+    }
+
+    .hero-card h2 {
+        font-family: 'Chakra Petch', sans-serif;
+        color: #7a1c27;
+        margin-bottom: 15px;
+    }
+
+    .hero-card h3 {
+        text-shadow: 0 0px 2px rgb(138, 136, 136);
+    }
+
+    .my_slide img {
+        width: 50%;
+        height: 50%;
+        padding: 10px;
+        box-shadow: #2b2b2b 0px 0px 10px 1px;       
+    }
+
+    .imga {
+        display: flex;
+        justify-content: center;
+    }
+
+    .imga img {
+        transition: transform 0.3s ease;
+    }
+
+    .imga img:hover {
+        transform: scale(1.04);
+    }
+
+    </style>
+</head>
+<body>
+
+    <header class="up-logo">
+        <img src="logo/logo.png" alt="โลโก้ศิลปะการแสดงละครไทย" class="tran-logo">
+        <div class="site-title">
+            <h1>ศิลปะการแสดงละครไทย</h1>
+            <p>วิชาเว็บเทคโนโลยีและการออกแบบเว็บ</p>
+        </div>
+    </header>
+
+    <nav class="navbar-container">
+        <ul class="navbar">
+            <li><a href="index.html">หน้าหลัก</a></li>
+            <li><a href="#">ประวัติความเป็นมา</a></li>
+            <li><a href="character.html">ประเภทตัวละคร</a></li>
+            <li><a href="story.html">การแสดงและบทละคร</a></li>
+            <li><a href="photo.html">อัลบั้มภาพ</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <div class="hero-card">
+
+            <center>
+            <h3>ยุคเริ่มต้น: รากเหง้าแห่งความเชื่อและวัฒนธรรม (สุโขทัย - อยุธยา)</h3>
+            <p style="padding: 20px;">ศิลปะการแสดงละครไทยมีจุดเริ่มต้นมาจากพิธีกรรมทางศาสนา ความเชื่อเรื่องผีบรรพบุรุษ และการละเล่นพื้นบ้านของไทย ผสมผสานกับอารยธรรมอินเดียที่แผ่ขยายเข้ามาผ่านคัมภีร์ณัฏฐศาสตร์ ต่อมาในสมัยอยุธยา เริ่มมีการจัดรูปแบบการแสดงที่ชัดเจนขึ้น เกิดเป็น "ละครนอก" ของชาวบ้านที่เน้นความสนุกสนานดำเนินเรื่องรวดเร็ว และ "ละครใน" ของราชสำนักที่เน้นความอ่อนช้อยและขนบประเพณีอันศักดิ์สิทธิ์</p>
+       <div class="imga">
+            <img src="pic/h1.jpg">
+            <img src="pic/h2.jpg">
+        </div>
+        <br>
+<hr>   
+            <h3 style="padding-top: 20px;">ยุคทองแห่งศิลปวิทยาทาน (รัตนโกสินทร์ตอนต้น)</h3>
+            <p style="padding: 20px;">ในสมัยรัตนโกสินทร์ตอนต้น โดยเฉพาะในรัชสมัยของพระบาทสมเด็จพระพุทธเลิศหล้านภาลัย (รัชกาลที่ 2) ถือเป็นยุคทองของวรรณคดีและละครไทย ทรงพระราชนิพนธ์บทละครชิ้นเอกมากมาย เช่น อิเหนา และ รามเกียรติ์ ศิลปะการร่ายรำ เครื่องแต่งกายโขนละคร และดนตรีปี่พาทย์ได้รับการปรับปรุงจนมีความประณีต งดงาม และมีระเบียบแบบแผนเป็นมาตรฐานสูงสุดของชาติ</p>
+        <div class="imga">
+            <img src="pic/his1.jpeg">
+            <img src="pic/his2.jpg">
+        </div>
+        <br>
+<hr>
+            <h3 style="padding-top: 20px;">ยุคปรับตัวสู่สากล (รัชกาลที่ 5 - ปัจจุบัน)</h3>
+            <p style="padding: 20px;">เมื่อวัฒนธรรมตะวันตกเข้ามามีบทบาทในสยาม ละครไทยได้ปรับตัวเข้าสู่ความร่วมสมัย เกิดละครรูปแบบใหม่ เช่น "ละครดึกดำบรรพ์" และ "ละครร้อง" ที่ลดทอนความยืดยาวและเน้นความสมจริงตามแบบสากล ในปัจจุบัน ศิลปะการแสดงละครไทยไม่ได้อยู่เพียงในวังหรือโรงละครแห่งชาติ แต่ได้รับการยกย่องเป็นมรดกโลกทางวัฒนธรรม และถูกประยุกต์เข้ากับสื่อบันเทิงยุคใหม่เพื่อส่งต่อสู่คนรุ่นหลัง</p>
+        <div class="imga">
+            <img src="pic/his3.jpg">
+            <img src="pic/his3.png">
+        </div>
+        <br>
+ <hr> 
+    </div>
+    </center>
+    </main>
+
+</body>
+</html>

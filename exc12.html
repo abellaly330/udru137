@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การสร้างเมนูแนวนอน ด้วย AI</title>
+    <!-- นำเข้าฟอนต์ Kanit เพื่อความสวยงามทันสมัย -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 30px 20px;
+        }
+
+        /* เมนูแนวนอนหลัก */
+        ol.navbar {
+            list-style: none;
+            padding: 0;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            max-width: 900px;
+        }
+
+        ol.navbar li {
+            flex: 1; /* ขยายขนาดปุ่มให้เท่ากันโดยอัตโนมัติ */
+            min-width: 140px;
+        }
+
+        ol.navbar li a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: #4a4a4a;
+            background-color: #ffe4e4; 
+            padding: 12px 18px;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        /* เอฟเฟกต์เมื่อวางเมาส์เหนือเมนู */
+        ol.navbar li a:hover {
+            background-color: #ee4e4e;
+            color: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(238, 78, 78, 0.3);
+        }
+
+        /* เมนูที่กำลังใช้งานอยู่ (Active) */
+        ol.navbar li a.active_menu {
+            background-color: #d93838;
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 30px auto;
+            max-width: 900px;
+        }
+
+        /* ปุ่มกลับหน้าหลักด้านล่าง */
+        .btn-back {
+            display: inline-block;
+            text-decoration: none;
+            color: #ee4e4e;
+            border: 2px solid #ee4e4e;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .btn-back:hover {
+            background-color: #ee4e4e;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- แถบเมนูหลัก -->
+        <ol class="navbar">
+            <li><a href="#หน้าหลัก" class="active_menu">หน้าหลัก</a></li>
+            <li><a href="#ประวัติอุดร">ประวัติความเป็นมา</a></li>
+            <li><a href="#ท่องเที่ยว">สถานที่ท่องเที่ยว</a></li>
+            <li><a href="#ของฝากของที่ระลึก">ของฝากของที่ระลึก</a></li>
+            <li><a href="#ผู้จัดทำเว็บ">ผู้จัดทำ</a></li>
+        </ol>
+
+        <hr>
+
+        <!-- ปุ่มย้อนกลับ -->
+        <a href="index.html" class="btn-back">← กลับหน้าหลัก</a>
+    </div>
+
+</body>
+</html>

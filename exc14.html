@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การสร้างแบบฟอร์มด้วย html</title>
+</head>
+<body>
+    <h2>สมัครสมาชิก</h2>
+    <form action="" method="post">
+   <table>
+    <tr>
+        <td>รหัสนักศึกษา:</td>
+        <td><input type="text" maxlength="11" minlength="11" placeholder="ระบุไม่เกิน11ตัวอักษร" required pattern="{0-9}"></td>
+    </tr>
+    <tr>
+        <td>ชื่อ:</td>
+        <td><input type="text" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>นามสกุล:</td>
+        <td><input type="text" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>username:</td>
+        <td><input type="text" minlength="4" maxlength="8"required></td>
+    </tr>
+    <tr>
+        <td>password:</td>
+        <td><input type="password" minlength="8" maxlength="20" required oninvalid="this.setCustomValidity('xxxx')" oninput="this.setCustomValidity('')"ss></td>
+    </tr>
+    <tr>
+        <td>เพศ:</td>
+        <td>
+            <input type="radio" name="gender" value="female"> หญิง
+            <input type="radio" name="gender" value="male"> ชาย
+
+        </td>
+    </tr>
+    <tr>
+        <td>งานอดิเรก:</td>
+        <td>
+             <input type="checkbox" vaLue="ฟังเพลง">ฟังเพลง
+             <input type="checkbox" vaLue="เล่นเกม">เล่นเกม
+            <input type="checkbox" vaLue="ดูหนัง"> ดูหนัง
+            <input type="checkbox" vaLue="เล่นกีฬา">เล่นกีฬา
+    </tr>
+    <tr>
+        <td>วุฒิการศึกษาที่จบ:</td>
+        <td>
+            <select name="education">
+                <option value="ม.6">ม.6</option>
+                <option value="ปวช.">ปวช.</option>
+                <option value="ปวส.">ปวส.</option>
+                <option value="ปริญญาตรี">ปริญญาตรี</option>
+
+        </td>
+    </tr>
+    <tr>
+        <td>วันเกิด:</td>
+        <td><input type="date" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>หมายเลขบัตรประจําตัวประชาชน:</td>
+        <td><input type="text" maxlength="13" minlength="13"></td>
+    </tr>
+    <tr>
+        <td>ที่อยู่:</td>
+        <td>
+            <textarea name="address" id="" rows="4" cols="40"  placeholder="ระบุที่อยู่"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>เบอรืโทรศัพท์:</td>
+        <td><input type="text" ></td>
+    </tr>
+    <tr>
+        <td>อีเมลล์:</td>
+        <td><input type="email" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>เว็บไซต์:</td>
+        <td><input type="url" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>upload รูป profile:</td>
+        <td><input type="file" accept="image/*"></td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="บันทึกการสมัคร"></td>
+        <td><input type="reset" value="ล้างข้อมูล"></td>
+    </tr>
+   </table>
+
+
+    </form>
+
+    <a href="index.html">กลับหน้าหลัก</a>
+</body>
+</html>

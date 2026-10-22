@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การสร้างตารางและผสานเซลในตาราง</title>
+    <style>
+        table,td {
+            border: solid 1.5px rgb(255, 167, 167);
+            width: 20%;
+            
+            box-shadow: 1px 1px 1px;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 70%;">
+        <caption>การสร้างตารางและผสานเซลในตาราง</caption>
+        <tr>
+            <td rowspan="4" style="text-align: center; background-color: rgb(255, 177, 177);">A F K P</td>
+            <td>B</td>
+            <td rowspan="2" style="text-align: center; background-color: rgb(196, 255, 255);">C H</td>
+        </tr>
+        <tr>
+            <!-- <td>F</td> -->
+            <td>G</td>
+            <!-- <td>H</td> -->
+        </tr>
+        <tr>
+            <!-- <td>K</td> -->
+            <td colspan="2" style="text-align: center; background-color: rgb(253, 255, 137);">L M</td>
+            <!-- <td>M</td> -->
+        </tr>
+        <tr>
+            <!-- <td>P</td> -->
+            <td>Q</td>
+            <td>R</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center; background-color: rgb(209, 233, 255);">U V W</td>
+            <!-- <td>V</td> -->
+            <!-- <td>W</td> -->
+        </tr>
+    </table>
+    <hr>
+    <a href="index.html" style="text-decoration: none; color: rgb(255, 95, 95);">กลับไปหน้าหลัก🔚</a>
+</body>
+</html>
